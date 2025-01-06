@@ -47,6 +47,17 @@ p {
     text-align: left;
 }
 
+.input-group .password:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;   
+}
+
+.input-group .username:hover {
+    border: 1px solid #6e8efb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
 label {
     display: block;
     margin-bottom: 8px;
