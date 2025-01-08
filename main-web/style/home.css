@@ -11,8 +11,12 @@ header {
   border-radius: 10px;
 }
 
+body {
+  background-color: rgba(79, 4, 255, 0.808);
+}
+
 nav {
-  height: 7vh;
+  height: 6vh;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -41,9 +45,50 @@ nav a:hover {
   transition: 0.5s;
 }
 
+.tombol {
+  padding-left: 90%;
+}
+
 .tombol a {
   text-decoration: none;
   margin: 0 5px;
   -ms-flex-align: right;
-  
+  color: white;
+}
+
+.tombol a:hover {
+  color: rgb(221, 220, 220);
+}
+
+.h1 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-top: 10%;
+  padding-left: 20%;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4)
+}
+
+.hr {
+  width: 60%;
+  display: flex;
+  margin-left: 20%;
+}
+
+.container-paragraf {
+  position: absolute;
+  top: 39%;
+  left: 20%;
+  width: 60%;
+  height: 100px; 
+}
+
+.isi {
+  font-size: 21px;
+  font-family: sans-serif;
+  color: white;
+  text-align: justify;
+  padding-top: 5px;
 }
